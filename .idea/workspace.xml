@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61bd9e46-d0a5-425f-a99d-32a4b010f7ec" name="Changes" comment="Véletlen dátum generálás">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Main.java" afterDir="false" />
+    <list default="true" id="61bd9e46-d0a5-425f-a99d-32a4b010f7ec" name="Changes" comment="Véletlen email generálás">
       <change beforePath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Veletlen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Veletlen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665041783263</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Véletlen email generálás">
+      <created>1665042681439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665042681439</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +119,7 @@
     <MESSAGE value="Véletlen karakter generálás" />
     <MESSAGE value="Véletlen név generálás" />
     <MESSAGE value="Véletlen dátum generálás" />
-    <option name="LAST_COMMIT_MESSAGE" value="Véletlen dátum generálás" />
+    <MESSAGE value="Véletlen email generálás" />
+    <option name="LAST_COMMIT_MESSAGE" value="Véletlen email generálás" />
   </component>
 </project>

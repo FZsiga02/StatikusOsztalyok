@@ -103,4 +103,23 @@ public final class Veletlen {
         int sorszam = rnd.nextInt(99 - 1) + 1;
         return nev.toLowerCase() + sorszam + "@gmail.com";
     }
+
+    public static String velMobil(){
+        int eldont = rnd.nextInt(4 - 1) + 1;
+        int szolgaltato;
+        if (eldont == 1){
+            szolgaltato = 20;
+        } else if (eldont == 2){
+            szolgaltato = 30;
+        } else if (eldont == 3){
+            szolgaltato = 70;
+        } else {
+            szolgaltato = 50;
+        }
+        int szam1 = rnd.nextInt(999 - 100) + 100;
+        int szam2 = rnd.nextInt(99 - 10) + 10;
+        int szam3 = rnd.nextInt(99 - 10) + 10;
+
+        return "+36" + " (" + szolgaltato + ") " + szam1 + "-" + szam2 + "-" + szam3;
+    }
 }
