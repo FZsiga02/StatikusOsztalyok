@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61bd9e46-d0a5-425f-a99d-32a4b010f7ec" name="Changes" comment="Create repo">
-      <change afterPath="$PROJECT_DIR$/files/egyesulet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/esemenytipus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/ferfikernev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/noikernev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/sportag.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/veznev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Veletlen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="61bd9e46-d0a5-425f-a99d-32a4b010f7ec" name="Changes" comment="Véletlen osztály&#10;- statikus viselkedés:&#10;  - az osztály final&#10;  - privát konstruktor&#10;- Random adattag&#10;- Listák nevekkel&#10;- véletlen egész&#10;&#10;Main&#10;- véletlen egész tesztje">
       <change beforePath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Veletlen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Veletlen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665036572555</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Véletlen osztály&#10;- statikus viselkedés:&#10;  - az osztály final&#10;  - privát konstruktor&#10;- Random adattag&#10;- Listák nevekkel&#10;- véletlen egész&#10;&#10;Main&#10;- véletlen egész tesztje">
+      <created>1665038347213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665038347213</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create repo" />
+    <MESSAGE value="Véletlen osztály&#10;- statikus viselkedés:&#10;  - az osztály final&#10;  - privát konstruktor&#10;- Random adattag&#10;- Listák nevekkel&#10;- véletlen egész&#10;&#10;Main&#10;- véletlen egész tesztje" />
+    <option name="LAST_COMMIT_MESSAGE" value="Véletlen osztály&#10;- statikus viselkedés:&#10;  - az osztály final&#10;  - privát konstruktor&#10;- Random adattag&#10;- Listák nevekkel&#10;- véletlen egész&#10;&#10;Main&#10;- véletlen egész tesztje" />
   </component>
 </project>

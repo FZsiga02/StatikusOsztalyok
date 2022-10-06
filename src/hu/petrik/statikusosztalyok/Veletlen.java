@@ -11,9 +11,9 @@ public final class Veletlen {
     private Veletlen(){}
 
     private static final Random rnd = new Random();
-    private static List<String> vezNevek = feltolt("files/veznev.txt");
-    private static List<String> ferfiKerNevek = feltolt("files/veznev.txt");;
-    private static List<String> noiKerNevek = feltolt("files/veznev.txt");;
+    private static final List<String> vezNevek = feltolt("files/veznev.txt");
+    private static final List<String> ferfiKerNevek = feltolt("files/veznev.txt");;
+    private static final List<String> noiKerNevek = feltolt("files/veznev.txt");;
 
     private static List<String> feltolt(String fajlnev) {
         List<String> lista = new ArrayList<>();
@@ -33,5 +33,9 @@ public final class Veletlen {
 
     public static int velEgesz(int min, int max){
         return rnd.nextInt(max - min + 1) + min;
+    }
+
+    public static char velKarakter(char min, char max){
+        return (char) velEgesz(min, max);
     }
 }
