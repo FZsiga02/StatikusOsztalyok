@@ -74,4 +74,18 @@ public final class Veletlen {
     public static  String velTeljesNev(boolean nem){
         return velVezetekNev() + " " + velKeresztNev(nem);
     }
+
+    public static String velDatum (int ev1, int ev2){
+        String year = String.valueOf(rnd.nextInt(ev2- ev1) + ev1);
+        String month = String.valueOf(rnd.nextInt(12 - 1) + 1);
+        String day;
+        if (Integer.valueOf(month) == 4 || Integer.valueOf(month) == 6 || Integer.valueOf(month) == 9 || Integer.valueOf(month) == 11){
+            day = String.valueOf(rnd.nextInt(30 - 1) + 1);
+        } else if (Integer.valueOf(month) == 2){
+            day = String.valueOf(rnd.nextInt(28 - 1) + 1);
+        } else {
+            day = String.valueOf(rnd.nextInt(31 - 1) + 1);
+        }
+        return String.valueOf(year + "-" + month + "-" + day );
+    }
 }

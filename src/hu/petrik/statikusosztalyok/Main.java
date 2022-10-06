@@ -29,5 +29,9 @@ public class Main {
         for (int i = 0; i < 5; i++) {
             System.out.println(Veletlen.velTeljesNev(false));
         }
+        System.out.println();
+        for (int i = 0; i < 5; i++) {
+            System.out.println(Veletlen.velDatum(1940, 2021));
+        }
     }
 }
