@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61bd9e46-d0a5-425f-a99d-32a4b010f7ec" name="Changes" comment="Véletlen email generálás">
-      <change beforePath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Veletlen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Veletlen.java" afterDir="false" />
+    <list default="true" id="61bd9e46-d0a5-425f-a99d-32a4b010f7ec" name="Changes" comment="Véletlen telefonszám generálás">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665042681439</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Véletlen telefonszám generálás">
+      <created>1665043240298</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665043240298</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +127,7 @@
     <MESSAGE value="Véletlen név generálás" />
     <MESSAGE value="Véletlen dátum generálás" />
     <MESSAGE value="Véletlen email generálás" />
-    <option name="LAST_COMMIT_MESSAGE" value="Véletlen email generálás" />
+    <MESSAGE value="Véletlen telefonszám generálás" />
+    <option name="LAST_COMMIT_MESSAGE" value="Véletlen telefonszám generálás" />
   </component>
 </project>
