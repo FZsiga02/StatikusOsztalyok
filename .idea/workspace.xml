@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61bd9e46-d0a5-425f-a99d-32a4b010f7ec" name="Changes" comment="Véletlen osztály&#10;- statikus viselkedés:&#10;  - az osztály final&#10;  - privát konstruktor&#10;- Random adattag&#10;- Listák nevekkel&#10;- véletlen egész&#10;&#10;Main&#10;- véletlen egész tesztje">
+    <list default="true" id="61bd9e46-d0a5-425f-a99d-32a4b010f7ec" name="Changes" comment="Véletlen karakter generálás">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Veletlen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/petrik/statikusosztalyok/Veletlen.java" afterDir="false" />
     </list>
@@ -72,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665038347213</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Véletlen karakter generálás">
+      <created>1665038837564</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665038837564</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create repo" />
     <MESSAGE value="Véletlen osztály&#10;- statikus viselkedés:&#10;  - az osztály final&#10;  - privát konstruktor&#10;- Random adattag&#10;- Listák nevekkel&#10;- véletlen egész&#10;&#10;Main&#10;- véletlen egész tesztje" />
-    <option name="LAST_COMMIT_MESSAGE" value="Véletlen osztály&#10;- statikus viselkedés:&#10;  - az osztály final&#10;  - privát konstruktor&#10;- Random adattag&#10;- Listák nevekkel&#10;- véletlen egész&#10;&#10;Main&#10;- véletlen egész tesztje" />
+    <MESSAGE value="Véletlen karakter generálás" />
+    <option name="LAST_COMMIT_MESSAGE" value="Véletlen karakter generálás" />
   </component>
 </project>
