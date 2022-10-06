@@ -2,6 +2,7 @@ package hu.petrik.statikusosztalyok;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -87,5 +88,19 @@ public final class Veletlen {
             day = String.valueOf(rnd.nextInt(31 - 1) + 1);
         }
         return String.valueOf(year + "-" + month + "-" + day );
+    }
+
+    public static String velEmail (String nev){
+        int eldont = rnd.nextInt(1 - 0) + 0;
+        boolean neme;
+        if (eldont == 0){
+            neme = true;
+        } else {
+            neme = false;
+        }
+        nev = Normalizer.normalize(velTeljesNev(neme), Normalizer.Form.NFD);
+        nev = nev.replaceAll("[\\s\\p{InCombiningDiacriticalMarks}]", "");
+        int sorszam = rnd.nextInt(99 - 1) + 1;
+        return nev.toLowerCase() + sorszam + "@gmail.com";
     }
 }
